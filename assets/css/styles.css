@@ -2,6 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Lora:ital,wght@0,400;0,500;0,600;1,600&family=Roboto+Slab:wght@700&family=Smooch&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
+
+.counting img{
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+
+.water_qualityy img{
+  padding-top: 30px;
+	border: 3px solid black;
+}
+
+
+.cont{
+  margin: 60px;
+  /* display: flex; */
+
+}
+.cont h1{
+  text-align: center;
+    margin-bottom: 13px;
+}
+
+.cont img{
+  height: 300px;
+  width: 500px;
+}
+.box-11{
+  display: flex;
+  /* justify-content: space-around; */
+  
+
+}
 :root {
   --header-height: 5.5rem;
 
@@ -130,10 +163,7 @@ h4 {
 
 
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
