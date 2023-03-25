@@ -28,36 +28,11 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Lora:ital,wght@0,400;0,500;0,600;1,600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto+Slab:wght@700&family=Smooch&display=swap"
         rel="stylesheet">
 
-        <style>
-            .main-box{
-        width: 500px;
-        height: 600px;
-        max-width: 100%;
-        position: relative;
-        text-align: center;
-        padding-top: 10px;
-        border: 3px solid black;
-    }
-
-    .main-box img{
-        height: 580px;
-        width: 400px;
-    }
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        min-height: 100vh;
-        margin: 0;
-    }
-</style>
-
     <title>Responsive clothing ecommerce - Bedimcode</title>
 </head>
 
+
 <body>
-    <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
             <div class="nav__menu" id="nav-menu">
@@ -148,11 +123,115 @@
             </div> -->
         </nav>
     </header>
-
-    <div class="main-box">
-        <div><img src="/assets/img/qr_code.jpeg" alt="logo" class="brand__img"></div>
-        
+    <div>
+        <div class="search-map" style="margin-top: 213px;">
+            <h2 class="section__title" style="font-size: 45px;">TANK STATION</h2>
+            <div class="search-box">
+                <div class="container font-effect-outline">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Country</label>
+                            <input type="text" class="form-control" id="country">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">City</label>
+                            <input type="text" class="form-control" id="city">
+                        </div>
+                        <div class="col-12">
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+    </div>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    Shop.
+                </a>
+                <p class="footer__description">
+                    Committed to bringing you the <br>
+                    best clothing from popular <br>
+                    brands.
+                </p>
+            </div>
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Company
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Category</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact info</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Blog
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Event</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Popular New</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">jRecent new</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Office
+                    </h3>
+                    <p class="footer__information">
+                        Monday - Saturday <br>
+                        9AM - 5PM
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Contact Us
+                    </h3>
+                    <ul class="footer__social">
+                        <a href="" class="footer__social-link" target="_blank">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; Sunny. All right reserved
+            </span>
+            <a href="#" class="footer__privacy">
+                Terms & Conditions
+            </a>
+        </div>
+    </footer>
 
     <!--========== SCROLL UP ==========-->
     <a href="#" class="scrollup" id="scroll-up">
